@@ -98,10 +98,10 @@ video {
     display: inline-block
 }
 
-    audio:not([controls]) {
-        display: none;
-        height: 0
-    }
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
 
 img {
     border-style: none
@@ -139,20 +139,20 @@ html [type=button] {
     -webkit-appearance: button
 }
 
-    [type=button]::-moz-focus-inner,
-    [type=reset]::-moz-focus-inner,
-    [type=submit]::-moz-focus-inner,
-    button::-moz-focus-inner {
-        border-style: none;
-        padding: 0
-    }
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner,
+button::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
 
-    [type=button]:-moz-focusring,
-    [type=reset]:-moz-focusring,
-    [type=submit]:-moz-focusring,
-    button:-moz-focusring {
-        outline: 1px dotted ButtonText
-    }
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring,
+button:-moz-focusring {
+    outline: 1px dotted ButtonText
+}
 
 fieldset {
     padding: .35em .75em .625em
@@ -191,10 +191,10 @@ legend {
     outline-offset: -2px
 }
 
-    [type=search]::-webkit-search-cancel-button,
-    [type=search]::-webkit-search-decoration {
-        -webkit-appearance: none
-    }
+[type=search]::-webkit-search-cancel-button,
+[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
 
 ::-webkit-file-upload-button {
     -webkit-appearance: button;
@@ -240,7 +240,8 @@ template {
 
 @-webkit-keyframes pulse {
 
-    0%, to {
+    0%,
+    to {
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
         filter: alpha(opacity=40);
         opacity: .4;
@@ -258,7 +259,8 @@ template {
 
 @keyframes pulse {
 
-    0%, to {
+    0%,
+    to {
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
         filter: alpha(opacity=40);
         opacity: .4;
@@ -324,9 +326,9 @@ template {
     list-style-type: none
 }
 
-    .fa-ul > li {
-        position: relative
-    }
+.fa-ul>li {
+    position: relative
+}
 
 .fa-li {
     position: absolute;
@@ -336,9 +338,9 @@ template {
     text-align: center
 }
 
-    .fa-li.fa-lg {
-        left: -1.85714286em
-    }
+.fa-li.fa-lg {
+    left: -1.85714286em
+}
 
 .fa-border {
     padding: .2em .25em .15em;
@@ -4840,10 +4842,10 @@ sup {
     background-attachment: fixed
 }
 
-    #particles-js .particles-js-canvas-el {
-        width: 100% !important;
-        height: 100vh !important
-    }
+#particles-js .particles-js-canvas-el {
+    width: 100% !important;
+    height: 100vh !important
+}
 
 .header {
     z-index: 1;
@@ -4857,12 +4859,12 @@ sup {
     transform: translate(-50%, -50%)
 }
 
-    .header .site-title {
-        font-size: 50px;
-        display: block;
-        line-height: 1;
-        color: #fff
-    }
+.header .site-title {
+    font-size: 50px;
+    display: block;
+    line-height: 1;
+    color: #fff
+}
 
 @media only screen and (min-width:550px) {
     .header .site-title {
@@ -4889,12 +4891,12 @@ sup {
     margin: 10px
 }
 
-    .header-links .link {
-        color: #fff;
-        text-decoration: none;
-        font-size: 15px;
-        margin: 10px
-    }
+.header-links .link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 10px
+}
 
 @media only screen and (min-width:550px) {
     .header-links .link {
@@ -4908,28 +4910,28 @@ sup {
     text-align: center
 }
 
-    .down,
-    .header-icons .icon {
-        color: #fff;
-        text-align: center
-    }
+.down,
+.header-icons .icon {
+    color: #fff;
+    text-align: center
+}
 
-    .header-icons .icon {
-        height: 20px;
-        padding: 10px;
-        border-radius: 50%;
-        border: 2px solid #fff;
-        transition: all .7s;
-        width: 20px;
-        font-size: 20px;
-        margin: 5px
-    }
+.header-icons .icon {
+    height: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    transition: all .7s;
+    width: 20px;
+    font-size: 20px;
+    margin: 5px
+}
 
-        .header-icons .icon:active,
-        .header-icons .icon:hover {
-            color: #1a222c;
-            background: #fff
-        }
+.header-icons .icon:active,
+.header-icons .icon:hover {
+    color: #1a222c;
+    background: #fff
+}
 
 @media only screen and (min-width:550px) {
     .header-icons .icon {
@@ -4949,27 +4951,27 @@ sup {
     cursor: pointer
 }
 
-    .down .icon {
-        position: absolute;
-        -webkit-transform-style: preserve-3d;
-        transform-style: preserve-3d;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        width: 100px;
-        height: 100px;
-        fill: #fff;
-        -webkit-animation: pulse 1.3s infinite;
-        animation: pulse 1.3s infinite
-    }
+.down .icon {
+    position: absolute;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    fill: #fff;
+    -webkit-animation: pulse 1.3s infinite;
+    animation: pulse 1.3s infinite
+}
 
-        .down .icon:active,
-        .down .icon:hover,
-        .footer a:active,
-        .footer a:hover {
-            color: #4b5664
-        }
+.down .icon:active,
+.down .icon:hover,
+.footer a:active,
+.footer a:hover {
+    color: #4b5664
+}
 
 #about {
     width: 90%;
@@ -4996,9 +4998,9 @@ sup {
     justify-content: space-between
 }
 
-    .user p {
-        font-size: 16px
-    }
+.user p {
+    font-size: 16px
+}
 
 @media only screen and (min-width:550px) {
     .user {
@@ -5031,25 +5033,25 @@ sup {
     margin: 20px auto
 }
 
-    .user-projects img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 5px
-    }
+.user-projects img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px
+}
 
-    .user-projects h5,
-    body {
-        margin: 0
-    }
+.user-projects h5,
+body {
+    margin: 0
+}
 
-    .user-projects li {
-        color: #1a222c;
-        font-size: 1.1rem
-    }
+.user-projects li {
+    color: #1a222c;
+    font-size: 1.1rem
+}
 
-    .user-projects p {
-        margin-right: 5px
-    }
+.user-projects p {
+    margin-right: 5px
+}
 
 @media only screen and (min-width:550px) {
     .contents {
@@ -5067,18 +5069,18 @@ sup {
         width: 48%
     }
 
-        .images-right img {
-            float: right
-        }
+    .images-right img {
+        float: right
+    }
 
     .images-left {
         float: left;
         width: 48%
     }
 
-        .images-left img {
-            float: left
-        }
+    .images-left img {
+        float: left
+    }
 }
 
 .project-link {
@@ -5096,13 +5098,13 @@ sup {
     transition: color .3s ease-out, background-color .3s ease-out, border-color .3s ease-out
 }
 
-    .project-link:active,
-    .project-link:hover {
-        background-color: #54516a;
-        border-color: #54516a;
-        color: #fff;
-        transition: color .3s ease-in, background-color .3s ease-in, border-color .3s ease-in
-    }
+.project-link:active,
+.project-link:hover {
+    background-color: #54516a;
+    border-color: #54516a;
+    color: #fff;
+    transition: color .3s ease-in, background-color .3s ease-in, border-color .3s ease-in
+}
 
 .footer {
     background: #1a222c;
@@ -5112,12 +5114,12 @@ sup {
     color: #fff
 }
 
-    .footer .love {
-        color: red
-    }
+.footer .love {
+    color: red
+}
 
-    .footer a {
-        text-decoration: none;
-        margin: 0;
-        color: #fff
-    }
+.footer a {
+    text-decoration: none;
+    margin: 0;
+    color: #fff
+}
