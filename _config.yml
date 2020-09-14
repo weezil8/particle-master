@@ -1,0 +1,19 @@
+# Site settings
+title: Shane Website
+description: A website for me
+# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+username: Shane Leinbach
+user_description: "Computer Science Student, focused on Security and SysAdmin fields."
+user_tittle: Big gamer
+email: bclemow@arcadia.edu
+twitter_username: weezil8
+github_username:  weezil8
+gplus_username:  lorem_ipsum
+
+# Google-analytics
+google-analytics:
+  id: ""
+
+exclude: ['package.json', 'src' , 'node_modules']
